@@ -9,7 +9,7 @@ module OmniAuth
       option :name, "withings"
 
       option :client_options, {
-          :site               => 'https://oauth.withings.com',
+          :site               => 'https://developer.health.nokia.com',
           :request_token_path => '/account/request_token',
           :access_token_path  => '/account/access_token',
           :authorize_path     => '/account/authorize'
