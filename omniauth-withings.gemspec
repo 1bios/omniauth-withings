@@ -18,5 +18,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ['lib']
   gem.version       = OmniAuth::Withings::VERSION
 
-  gem.add_dependency 'omniauth-oauth2', '~> 1.3.1'
+  gem.add_dependency 'omniauth-oauth2', '~> 1.6'
 end
